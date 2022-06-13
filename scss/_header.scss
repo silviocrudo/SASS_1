@@ -1,0 +1,42 @@
+header{
+    background-color:$bgcolor1;
+    .navbar{
+        margin: 10px auto;
+        .navbar-nav{
+            list-style-type: none;
+            padding: auto;
+            .nav-item{
+                padding: 10px;
+                margin: 10px;
+                font-weight: bold;
+                .nav-link {
+                    color: $bgcolor2;
+                    font-size: 1rem;
+                                    &:hover{
+                                        color: rgb(10, 190, 181);
+                                        font-size: 1.2rem;
+                                    }
+                }
+                
+            }
+
+        }    
+        .navbar-brand{
+            color: $bgcolor2;
+            font-size: 1rem;
+            font-weight: bold;
+                            &:hover{
+                                color: rgb(10, 190, 181);
+                                font-size: 1.2rem;
+                            }
+        }    
+    }
+    .titulo{
+        color: white;
+        text-align: center;
+    }
+    .titulo2{
+        color: white;
+        text-align: center;
+    }
+}

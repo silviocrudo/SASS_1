@@ -1,0 +1,21 @@
+.containerFlora{
+    margin-top: -0,5rem;
+    padding-top: 1rem;
+    padding-bottom:  1rem;
+        h3{
+            color: $bgcolor1;
+            text-align: center;
+        }
+        p{
+            text-align: left;
+        }
+        img{
+            width: 75%;
+            height: 75%;
+                            &:hover{
+                                width: 80% ; height: 80% ;
+                                transition: height 2s;
+                                transition: width 2s;
+                                              }   
+        }
+    }

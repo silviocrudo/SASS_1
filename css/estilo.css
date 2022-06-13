@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: #40a340; }
+  header .navbar {
+    margin: 10px auto; }
+    header .navbar .navbar-nav {
+      list-style-type: none;
+      padding: auto; }
+      header .navbar .navbar-nav .nav-item {
+        padding: 10px;
+        margin: 10px;
+        font-weight: bold; }
+        header .navbar .navbar-nav .nav-item .nav-link {
+          color: #c8ce74;
+          font-size: 1rem; }
+          header .navbar .navbar-nav .nav-item .nav-link:hover {
+            color: #0abeb5;
+            font-size: 1.2rem; }
+    header .navbar .navbar-brand {
+      color: #c8ce74;
+      font-size: 1rem;
+      font-weight: bold; }
+      header .navbar .navbar-brand:hover {
+        color: #0abeb5;
+        font-size: 1.2rem; }
+  header .titulo {
+    color: white;
+    text-align: center; }
+  header .titulo2 {
+    color: white;
+    text-align: center; }
+
+.containerFlora {
+  margin-top: -0,5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+  .containerFlora h3 {
+    color: #40a340;
+    text-align: center; }
+  .containerFlora p {
+    text-align: left; }
+  .containerFlora img {
+    width: 75%;
+    height: 75%; }
+    .containerFlora img:hover {
+      width: 80%;
+      height: 80%;
+      transition: height 2s;
+      transition: width 2s; }
+
+.containerFooter {
+  background-color: #40a340;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .containerFooter p {
+    font-size: 1.2em;
+    color: #c8ce74; }
+  .containerFooter .imgLogoBiolagos {
+    height: 100px;
+    width: 150px; }

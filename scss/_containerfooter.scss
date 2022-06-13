@@ -1,0 +1,14 @@
+.containerFooter{
+    background-color: $bgcolor1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        p{
+            font-size: 1.2em;
+            color: $bgcolor2;
+        }
+        .imgLogoBiolagos{
+            height: 100px;
+            width: 150px;
+        }
+}
