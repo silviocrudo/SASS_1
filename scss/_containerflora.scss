@@ -1,4 +1,4 @@
-.containerFlora{
+.cajaFlora{
     margin-top: -0,5rem;
     padding-top: 1rem;
     padding-bottom:  1rem;
@@ -7,7 +7,7 @@
             text-align: center;
         }
         p{
-            text-align: left;
+            text-align: justify;
         }
         img{
             width: 75%;
@@ -16,6 +16,18 @@
                                 width: 80% ; height: 80% ;
                                 transition: height 2s;
                                 transition: width 2s;
-                                              }   
+                                            }   
+        }   
+            .celda1{
+            @extend .cajaFlora;
+            background-color: $bgcolor3;
         }
+        .celda2{
+            @extend .cajaFlora;
+            background-color:$bgcolor4;
+        }        
     }
+
+
+
+

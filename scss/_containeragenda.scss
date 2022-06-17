@@ -1,0 +1,42 @@
+@mixin agenda($color, $bgcolor) {
+    margin: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom:  1rem;
+    background-color: $bgcolor;
+    h3{
+        color: $color;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        color: $color;
+    }
+    img{
+        width: 70%;
+        height: 70%;
+                        &:hover{
+                            width: 80% ; height: 80% ;
+                            transition: height 2s;
+                            transition: width 2s;
+                                        }   
+    }         
+    }
+    
+    .box1Agenda{
+        @include agenda($color1, $bgcolor3)
+    }
+    .box2Agenda{
+        @include agenda($color2, $bgcolor4)
+    }
+    .box3Agenda{
+        @include agenda($color3, $bgcolor5)
+    }
+    .box4Agenda{
+        @include agenda($color1, $bgcolor3)
+    }
+
+.containerAgenda{
+    margin-left: 10%;
+}
+    
+        

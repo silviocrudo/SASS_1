@@ -2,6 +2,7 @@ header{
     background-color:$bgcolor1;
     .navbar{
         margin: 10px auto;
+        background-color: $bgcolor2;
         .navbar-nav{
             list-style-type: none;
             padding: auto;
@@ -10,7 +11,7 @@ header{
                 margin: 10px;
                 font-weight: bold;
                 .nav-link {
-                    color: $bgcolor2;
+                    color: $bgcolor1;
                     font-size: 1rem;
                                     &:hover{
                                         color: rgb(10, 190, 181);
@@ -22,7 +23,7 @@ header{
 
         }    
         .navbar-brand{
-            color: $bgcolor2;
+            color: $bgcolor1;
             font-size: 1rem;
             font-weight: bold;
                             &:hover{

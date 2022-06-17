@@ -6,7 +6,8 @@
 header {
   background-color: #40a340; }
   header .navbar {
-    margin: 10px auto; }
+    margin: 10px auto;
+    background-color: #c8ce74; }
     header .navbar .navbar-nav {
       list-style-type: none;
       padding: auto; }
@@ -15,13 +16,13 @@ header {
         margin: 10px;
         font-weight: bold; }
         header .navbar .navbar-nav .nav-item .nav-link {
-          color: #c8ce74;
+          color: #40a340;
           font-size: 1rem; }
           header .navbar .navbar-nav .nav-item .nav-link:hover {
             color: #0abeb5;
             font-size: 1.2rem; }
     header .navbar .navbar-brand {
-      color: #c8ce74;
+      color: #40a340;
       font-size: 1rem;
       font-weight: bold; }
       header .navbar .navbar-brand:hover {
@@ -34,23 +35,110 @@ header {
     color: white;
     text-align: center; }
 
-.containerFlora {
-  margin-top: -0,5rem;
+.box1Agenda {
+  margin: 0.5rem;
   padding-top: 1rem;
-  padding-bottom: 1rem; }
-  .containerFlora h3 {
-    color: #40a340;
+  padding-bottom: 1rem;
+  background-color: #f5f5b8; }
+  .box1Agenda h3 {
+    color: #016d01;
     text-align: center; }
-  .containerFlora p {
-    text-align: left; }
-  .containerFlora img {
-    width: 75%;
-    height: 75%; }
-    .containerFlora img:hover {
+  .box1Agenda p {
+    text-align: center;
+    color: #016d01; }
+  .box1Agenda img {
+    width: 70%;
+    height: 70%; }
+    .box1Agenda img:hover {
       width: 80%;
       height: 80%;
       transition: height 2s;
       transition: width 2s; }
+
+.box2Agenda {
+  margin: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #aad8d8; }
+  .box2Agenda h3 {
+    color: #0404d8;
+    text-align: center; }
+  .box2Agenda p {
+    text-align: center;
+    color: #0404d8; }
+  .box2Agenda img {
+    width: 70%;
+    height: 70%; }
+    .box2Agenda img:hover {
+      width: 80%;
+      height: 80%;
+      transition: height 2s;
+      transition: width 2s; }
+
+.box3Agenda {
+  margin: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #7af37a; }
+  .box3Agenda h3 {
+    color: #4b4848;
+    text-align: center; }
+  .box3Agenda p {
+    text-align: center;
+    color: #4b4848; }
+  .box3Agenda img {
+    width: 70%;
+    height: 70%; }
+    .box3Agenda img:hover {
+      width: 80%;
+      height: 80%;
+      transition: height 2s;
+      transition: width 2s; }
+
+.box4Agenda {
+  margin: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #f5f5b8; }
+  .box4Agenda h3 {
+    color: #016d01;
+    text-align: center; }
+  .box4Agenda p {
+    text-align: center;
+    color: #016d01; }
+  .box4Agenda img {
+    width: 70%;
+    height: 70%; }
+    .box4Agenda img:hover {
+      width: 80%;
+      height: 80%;
+      transition: height 2s;
+      transition: width 2s; }
+
+.containerAgenda {
+  margin-left: 10%; }
+
+.cajaFlora, .cajaFlora .celda1, .cajaFlora .celda2 {
+  margin-top: -0,5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+  .cajaFlora h3, .cajaFlora .celda1 h3, .cajaFlora .celda2 h3 {
+    color: #40a340;
+    text-align: center; }
+  .cajaFlora p, .cajaFlora .celda1 p, .cajaFlora .celda2 p {
+    text-align: justify; }
+  .cajaFlora img, .cajaFlora .celda1 img, .cajaFlora .celda2 img {
+    width: 75%;
+    height: 75%; }
+    .cajaFlora img:hover {
+      width: 80%;
+      height: 80%;
+      transition: height 2s;
+      transition: width 2s; }
+  .cajaFlora .celda1 {
+    background-color: #f5f5b8; }
+  .cajaFlora .celda2 {
+    background-color: #aad8d8; }
 
 .containerFooter {
   background-color: #40a340;
