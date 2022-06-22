@@ -1,5 +1,6 @@
 header{
     background-color:$bgcolor1;
+    padding-bottom: 0.5rem;
     .navbar{
         margin: 10px auto;
         background-color: $bgcolor2;
@@ -12,10 +13,10 @@ header{
                 font-weight: bold;
                 .nav-link {
                     color: $bgcolor1;
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                                     &:hover{
                                         color: rgb(10, 190, 181);
-                                        font-size: 1.2rem;
+                                        font-size: 1.4rem;
                                     }
                 }
                 
@@ -24,11 +25,11 @@ header{
         }    
         .navbar-brand{
             color: $bgcolor1;
-            font-size: 1rem;
+            font-size: 1.2rem;
             font-weight: bold;
                             &:hover{
                                 color: rgb(10, 190, 181);
-                                font-size: 1.2rem;
+                                font-size: 1.4rem;
                             }
         }    
     }
@@ -39,5 +40,6 @@ header{
     .titulo2{
         color: white;
         text-align: center;
+        margin: 1rem, 0rem, 2rem, 0rem;
     }
 }

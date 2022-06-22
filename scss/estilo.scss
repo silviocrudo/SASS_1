@@ -1,5 +1,5 @@
 $bgcolor1:#40a340;
-$bgcolor2:rgb(200, 206, 116);
+$bgcolor2:#c8ce74;
 $bgcolor3: #f5f5b8;
 $bgcolor4: #aad8d8;
 $bgcolor5: #7af37a;
@@ -16,9 +16,12 @@ $color3: #4b4848;
 }
 
 @import"header";
+@import"containerconocenos";
 @import"containeragenda";
 @import"containerflora";
+@import"containercontacto";
 @import"containerfooter";
+
 
 
 

@@ -4,7 +4,8 @@
   box-sizing: border-box; }
 
 header {
-  background-color: #40a340; }
+  background-color: #40a340;
+  padding-bottom: 0.5rem; }
   header .navbar {
     margin: 10px auto;
     background-color: #c8ce74; }
@@ -17,23 +18,32 @@ header {
         font-weight: bold; }
         header .navbar .navbar-nav .nav-item .nav-link {
           color: #40a340;
-          font-size: 1rem; }
+          font-size: 1.2rem; }
           header .navbar .navbar-nav .nav-item .nav-link:hover {
             color: #0abeb5;
-            font-size: 1.2rem; }
+            font-size: 1.4rem; }
     header .navbar .navbar-brand {
       color: #40a340;
-      font-size: 1rem;
+      font-size: 1.2rem;
       font-weight: bold; }
       header .navbar .navbar-brand:hover {
         color: #0abeb5;
-        font-size: 1.2rem; }
+        font-size: 1.4rem; }
   header .titulo {
     color: white;
     text-align: center; }
   header .titulo2 {
     color: white;
+    text-align: center;
+    margin: 1rem, 0rem, 2rem, 0rem; }
+
+.rowConocenos {
+  padding: 2rem; }
+  .rowConocenos h3 {
+    color: #40a340;
     text-align: center; }
+  .rowConocenos p {
+    text-align: justify; }
 
 .box1Agenda {
   margin: 0.5rem;
@@ -61,11 +71,11 @@ header {
   padding-bottom: 1rem;
   background-color: #aad8d8; }
   .box2Agenda h3 {
-    color: #0404d8;
+    color: #4b4848;
     text-align: center; }
   .box2Agenda p {
     text-align: center;
-    color: #0404d8; }
+    color: #4b4848; }
   .box2Agenda img {
     width: 70%;
     height: 70%; }
@@ -118,27 +128,34 @@ header {
 .containerAgenda {
   margin-left: 10%; }
 
-.cajaFlora, .cajaFlora .celda1, .cajaFlora .celda2 {
-  margin-top: -0,5rem;
+.cajaFyF, .cajaFyF .celda1, .cajaFyF .celda2 {
+  height: 100%;
   padding-top: 1rem;
   padding-bottom: 1rem; }
-  .cajaFlora h3, .cajaFlora .celda1 h3, .cajaFlora .celda2 h3 {
+  .cajaFyF h3, .cajaFyF .celda1 h3, .cajaFyF .celda2 h3 {
     color: #40a340;
     text-align: center; }
-  .cajaFlora p, .cajaFlora .celda1 p, .cajaFlora .celda2 p {
+  .cajaFyF p, .cajaFyF .celda1 p, .cajaFyF .celda2 p {
     text-align: justify; }
-  .cajaFlora img, .cajaFlora .celda1 img, .cajaFlora .celda2 img {
+  .cajaFyF img, .cajaFyF .celda1 img, .cajaFyF .celda2 img {
     width: 75%;
     height: 75%; }
-    .cajaFlora img:hover {
+    .cajaFyF img:hover {
       width: 80%;
       height: 80%;
       transition: height 2s;
       transition: width 2s; }
-  .cajaFlora .celda1 {
+  .cajaFyF .celda1 {
     background-color: #f5f5b8; }
-  .cajaFlora .celda2 {
+  .cajaFyF .celda2 {
     background-color: #aad8d8; }
+
+.containerContacto {
+  background-color: #c8ce74; }
+  .containerContacto h3 {
+    text-align: center; }
+  .containerContacto .label1 {
+    font-weight: bold; }
 
 .containerFooter {
   background-color: #40a340;
@@ -147,7 +164,8 @@ header {
   align-items: center; }
   .containerFooter p {
     font-size: 1.2em;
-    color: #c8ce74; }
+    color: whitesmoke;
+    font-weight: bold; }
   .containerFooter .imgLogoBiolagos {
     height: 100px;
     width: 150px; }

@@ -1,5 +1,5 @@
-.cajaFlora{
-    margin-top: -0,5rem;
+.cajaFyF{
+    height: 100%;
     padding-top: 1rem;
     padding-bottom:  1rem;
         h3{
@@ -19,11 +19,11 @@
                                             }   
         }   
             .celda1{
-            @extend .cajaFlora;
+            @extend .cajaFyF;
             background-color: $bgcolor3;
         }
         .celda2{
-            @extend .cajaFlora;
+            @extend .cajaFyF;
             background-color:$bgcolor4;
         }        
     }

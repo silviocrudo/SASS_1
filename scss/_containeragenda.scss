@@ -26,7 +26,7 @@
         @include agenda($color1, $bgcolor3)
     }
     .box2Agenda{
-        @include agenda($color2, $bgcolor4)
+        @include agenda($color3, $bgcolor4)
     }
     .box3Agenda{
         @include agenda($color3, $bgcolor5)
