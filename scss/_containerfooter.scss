@@ -1,5 +1,8 @@
 .containerFooter{
     background-color: $bgcolor1;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-top: 0.5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -9,8 +12,16 @@
             font-weight: bold;
 
         }
+        a img{
+            height: 50px;
+            width: 50px;
+                        &:hover{
+                            opacity: 0.7;
+                        }
+            }
+                      
         .imgLogoBiolagos{
-            height: 100px;
-            width: 150px;
+            height: 100%;
+            width: 100%;
         }
-}
+    }

@@ -1,7 +1,5 @@
 @mixin agenda($color, $bgcolor) {
     margin: 0.5rem;
-    padding-top: 1rem;
-    padding-bottom:  1rem;
     background-color: $bgcolor;
     h3{
         color: $color;

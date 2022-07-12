@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,12 +12,14 @@
     <link rel="icon" type="image/jpg" href="../img/favicon-16x16.png"/>    
     <!-- Empieza Bootstrap -->    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--Empieza animate.style-->
+    <link rel="stylesheet"     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  />
     <!-- CSS personalizado-->
     <link rel="stylesheet" href="../css/estilo.css">
     <title>Conocé BioLagos</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="text-light">
         <nav class=" colorNav navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -48,47 +50,88 @@
               </div>
             </div>
           </nav>
-        <h1 class="p-3 titulo">🦋🦎BioLagos. Paisaje Protegido 🐊🦅</h1>
-        <h2 class="titulo2">Conocenos</h2>
+        <h1 class="p-3 titulo">BioLagos. Paisaje Protegido </h1>
+        <h2 class="titulo2 animate__animated animate__pulse">Conocenos</h2>
     </header>
 
     <main class="containerConocenos"> 
         <div class="row rowConocenos">
-              <div class=" celda1 col-xs-12 col-md-6 col-lg-4 p-3">
+              <div class=" celda col-xs-12 col-md-6 col-lg-4 p-3">
                 <h3>Paisaje protegido</h3>
-                <p>Buscando conservar la flora y fauna nativa, las actividades que se proponen en el Área son totalmente amigables con la naturaleza.</p>
-                <br><br>
+                <p>Buscando conservar la flora y la fauna nativa, las actividades que se proponen en el Área son totalmente amigables con la naturaleza. Así, se lleva adelante una propuesta de turismo sostenible para toda la región.</p>
+                <br>
                 <img src="../img/conocenos1.jpg" alt="río_y_camalotes">
             </div>
-            <div class=" celda1 col-xs-12 col-md-6 col-lg-4 p-3">
+            <div class=" celda col-xs-12 col-md-6 col-lg-4 p-3">
                 <h3>Responsabilidad social</h3>
-                <p>En BioLagos trabajan quince mujeres pertenecientes a familias de pescadores de la zona. Además, el proyecto implicó la mejora de las condiciones de vida de la población aledaña.</p>
+                <p>En BioLagos trabajan quince mujeres pertenecientes a familias de pescadores. Además, el proyecto implicó la mejora de las condiciones de vida de la población aledaña y la puesta en valor de la zona ribereña.</p>
                 <br>
-                <iframe width="400" height="260" src="https://www.youtube.com/embed/BmGucIi1TrM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="300" height="195" src="https://www.youtube.com/embed/BmGucIi1TrM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="celda1 col-xs-12 col-md-12 col-lg-4 p-3">
+            <div class="celda col-xs-12 col-md-12 col-lg-4 p-3">
                 <h3>Cómo llegar</h3>
-                <p>Biolagos se encuentra a menos de dos kilómetros de la Ruta Provincial 21, sentido oeste. Su acceso puede ser por vehículos motorizados o bien por la biscisenda ubicada sobre el Camino Don Orione. </p>
+                <p>Biolagos se encuentra a menos de dos kilómetros de la Ruta Provincial 21, sentido oeste. Se puede acceder por medio de vehículos motorizados o bien por la biscisenda ubicada sobre el Camino Don Orione. </p>
                 <br>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13369.2173892535!2d-60.5282267!3d-33.1010817!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6d8f63117f9c0dc!2sBiolagos!5e0!3m2!1ses-419!2sar!4v1654466613734!5m2!1ses-419!2sar" width="400" height="260" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13369.2173892535!2d-60.5282267!3d-33.1010817!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6d8f63117f9c0dc!2sBiolagos!5e0!3m2!1ses-419!2sar!4v1654466613734!5m2!1ses-419!2sar" width="300" height="195" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </div>        
+        </div>  
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                <strong>¿En qué horarios se encuentra abierto BioLagos?</strong>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                BioLagos se encuentra abierto <strong>desde las 8:00 hs. hasta las 20:00 hs</strong>. para la visita del público.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item acordeon">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                 <strong>¿Qué áreas tiene el islote?</strong>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                El islote presenta <strong>cuatro grandes áreas</strong>. La primera, dedicada a la realización de <strong>campamentos</strong>, cuenta con parrilleros y duchas. En segundo lugar, la <strong>zona de pesca deportiva</strong>. A continuación, nos encontramos con la <strong>zona de playa</strong>, la cual cuenta con servicio de guardavidas durante la temporada de verano. Finalmente, se puede acceder al <strong>área de senderismo</strong> hacia el sur del predio, por medio de los caminos dispuestos para tal fin.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                <strong>¿Cuánto cuesta la entrada al predio?</strong>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                La entrada al predio cuesta <strong>$250 por día</strong>. Quienes acrediten residencia en General Lagos no deberán abonar la entrada. 
+                A la vez, tienen <strong>descuentos</strong> del 50% jubilados, jubiladas y Veteranos de Guerra de Malvinas, con la respectiva documentación probatoria.
+              </div>
+            </div>
+          </div>
+        </div>     
       </main>  
 
     <!-- Footer-->
-    <footer class="container-fluid containerFooter" p-5>
+    <footer class="container-fluid containerFooter" p-4>
       <div class="datos">
         <p>Don Orione 1800 bis</p>
         <p>Tel: 3446 585636</p>
-        <p>Obtené tu entrada</p>
-        <p>Contacto</p> 
+        <p>Nuestras redes:</p>   
+        <a href="https://www.facebook.com/" target="_blank"><img src="../img/facebook-svgrepo-com.svg" alt="enlace_a_facebook"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="../img/instagram-svgrepo-com.svg" alt="enlace_a_instagram"></a>        
       </div>
-      
       <div class="logoBioLagos">
-        <img class="imgLogoBiolagos" src="../img/logo_biolagos.jpg" alt="logo_Biolagos">
+        <a href="../index.html"><img class="imgLogoBiolagos" src="../img/logo_biolagos.jpg" alt="logo_biolagos"></a>
       </div>
+            
     </footer>   
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
 </html>
